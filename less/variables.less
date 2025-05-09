@@ -1,0 +1,49 @@
+@purduegold: #CFB991;
+@dust: #EBD99F;
+@rush: #DAAA00;
+@coolgray: #6F727B;
+@steel: #555960;
+@steam: #C4BFC0;
+@baseunit: 20px;
+
+header{
+    color: white;
+    background-color: black;
+}
+
+body{
+    background-color: @steel;
+}
+#navBar{
+    color: @rush;
+    background-color: @steel;
+}
+#navBar button{
+    background-color: @coolgray;
+    border: 2px solid black;
+}
+
+.col p:hover {
+    color: @rush;  
+}
+
+/* Accordion */
+.accordion-button {
+    background-color: @steam; 
+    color: black;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: @rush;
+    color: white;
+    box-shadow: inset 0 -3px 0 @dust;
+  }
+
+.accordion-button:hover {
+    background-color: @rush; 
+}
+
+.accordion-body {
+    background-color: @steel; 
+    color: white; 
+}
